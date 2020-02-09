@@ -1,5 +1,14 @@
 The API Scraper is a Python 3.x tool designed to find "hidden" API calls powering a website.
 
+Remark:
+結構上，以中介軟體 app 變數包住整個應用程式是 flask 框架的基礎。
+
+而專案架構中，會先呼叫模組名稱(通常是腳本檔案名稱)內的類別名稱，
+並從其類別下所包含的方法，做呼叫的應用。
+
+所以，__init__() 建構方法除了初始化類別的參數，也能讓模組是否等同於類別作為判斷依據。
+例如：
+apicall 此模組（檔名）明明有多個類別，而非其中包含的APICall 為唯一類別，故其中很多行 __init__()
 
 <h2>Installation</h2>
 The following Python libraries should be installed (with pip, or the package manager of your choice):
