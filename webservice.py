@@ -4,6 +4,9 @@ from apiFinder import APIFinder
 from apicall import APIWriter
 app = Flask(__name__)
 
+# flask is a light weight web app framework! Which I write in first Jan, 2020.
+# comment in Feb, 2020.
+
 @app.route("/search")
 def search():
     #(self, url=None, harDirectory=None, searchString=None, removeParams=False, count=1)
@@ -21,3 +24,5 @@ def crawl():
 
 if __name__ == "__main__":
     app.run()
+    
+    
