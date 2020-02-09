@@ -6,6 +6,15 @@ import html
 import re
 import codecs
 
+# class in python can be write as class ClassName: or class ClassName():
+# with brackets or without brackets are both ok.
+
+# the alternative to create class, is to create a module, and write the __init__() 
+# function under the module, to construct the module as class.
+# then the other function name under the class or module will be delaired and defined.
+
+# __init__(), which is to load the input (argv) as the global veriable in the class| module. 
+
 class APICall:
 
 	def __init__(self, originalUrl, base, path, encodingType, method, params, size, content, searchContext=None):
