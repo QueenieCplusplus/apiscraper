@@ -1,5 +1,8 @@
 The API Scraper is a Python 3.x tool designed to find "hidden" API calls powering a website.
 
+![flask framework](https://zh.wikipedia.org/wiki/Flask#/media/File:Flask_logo.svg)
+
+
 Remark:
 結構上，以中介軟體 app 變數包住整個應用程式是 flask 框架的基礎。
 
